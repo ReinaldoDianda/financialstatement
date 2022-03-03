@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>financial Statement</title>
+</head>
+<body>
+    <header>
+        <h1>Discover your capacity to save and doubt</h1>
+    </header>
+        <section>
+            <form>
+<!-- Get the informatión -->
+                <label for="income">What is your monthly income? </label>
+                <input id="income" type="text" placeholder="$500-$600-$700"/> <br><br>
+
+                <label for="food">Spending on food </label>
+                <input id="food" type="text" placeholder="$50-$100-$150"/><br>
+
+                <label for="Health">Medical expenses </label>
+                <input id="Health" type="text" placeholder="$10-$20-$30"/><br>
+                
+                <label for="fun">Hobbies & fun </label>
+                <input id="fun" type="text" placeholder="$10-$20-$30"/><br>
+              
+                <label for="couple">Couple or friends </label>
+                <input id="couple" type="text" placeholder="$10-$20-$30"/><br>
+              
+                <label for="family">Family </label>
+                <input id="family" type="text" placeholder="$10-$20-$30"/><br>
+              
+                <label for="services">Services</label>
+                <input id="services" type="text" placeholder="$10-$20-$30"/><br>
+              
+                <label for="others">Others </label>
+                <input id="others" type="text" placeholder="$10-$20-$30"/><br>
+<!--Show the informatión -->
+
+                <button type="button" onclick="DiscoverYourCapacity()"> Discover</button>
+                <p id="total"></p>
+                <p id="savings"></p>
+                <p id="doubt"></p>
+
+            </form>
+        </section>
+        <script src="./financialStatement.JS"></script>
+</body>
+</html>
